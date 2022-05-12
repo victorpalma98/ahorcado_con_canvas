@@ -1,0 +1,25 @@
+body {
+    background: #2e69fe98;
+    font-family: sans-serif;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+canvas {
+    color: #fff;
+    padding: 15px;
+    outline: rgb(255, 255, 255) 3px solid;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 5px 0;
+    font-size: 2em;
+  }
+  
+p {
+    font-size: 1em;
+  }

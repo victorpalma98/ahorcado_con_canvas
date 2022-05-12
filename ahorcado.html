@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ahorcado</title>
+	<link rel="stylesheet" href="ahorcado.css">
+	<script type="text/javascript" src="ahorcado.js"></script>
+</head>
+<body>
+	<h1>Ahorcado</h1>
+	<p>Adivina el lenguaje de programación: </p>
+	<p><canvas id="c"></canvas></p>
+	<p>
+		Elige una letra: 
+		<input type="text" id= "letra"/>
+		<input type="button" id="boton" value="Validar" />
+	</p>
+	<h2 id= "pista"> _ _ _ </h2>
+	<div id="aviso"></div>
+	<div id="texto"></div>
+	<script type="text/javascript">
+	inicio();
+	</script>
+</body>
+</html>
